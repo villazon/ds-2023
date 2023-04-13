@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  nginx-ping:
+    build: ./nginx-ping
+    ports:
+      - 9999:80
+
+  
